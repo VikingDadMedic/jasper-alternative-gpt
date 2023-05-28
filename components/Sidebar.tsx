@@ -50,7 +50,7 @@ const Sidebar: React.FC<Props> = ( { items, onShowPopup } ) =>
                     onClick={ handleClick }>
                     <div className="flex flex-col">
                         <Image src={ "/images/logo.png" } alt="Toby AI" width="250" height="100" />
-                        <h1 className="text-lg font-normal text-center text-gray-700">Voyager Social </h1>
+                        <h1 className="text-lg font-normal text-center text-gray-700">GPT-4 Enabled </h1>
                         <h1 className="text-lg font-semibold text-center text-gray-700">Toby <i
                             className="fas fa-arrow-right text-primary" /> Tasking</h1>
 
