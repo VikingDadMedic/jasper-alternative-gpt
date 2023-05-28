@@ -34,8 +34,8 @@ export default async function handler ( req: NextApiRequest, res: NextApiRespons
         try
         {
             const response: any = await openai.createChatCompletion( {
-                model: "gpt-3.5-turbo",
-                // model: "gpt-4"
+                // model: "gpt-3.5-turbo",
+                model: "gpt-4",
                 // @ts-ignore
                 messages: messages,
                 temperature: 1,
