@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://jema.ai">
-    <img style="max-width: 400px;"  alt="logo" src="https://www.jema.ai/images/Jemaai-logo.png">
+    <img style="max-width: 400px;"  alt="logo" src="https://www.jema.ai/images/logo.png">
   </a>
 </p>
 

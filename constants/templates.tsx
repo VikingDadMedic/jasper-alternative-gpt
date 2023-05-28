@@ -17,68 +17,68 @@ export type Template = {
 };
 
 export const TEMPLATES: Template[] = [
-    {
-        "id": "a6dc-0f21-c102-6c22",
-        "title": "Amazon Product Description (paragraph)",
-        "description": "Create compelling product descriptions for Amazon listings.",
-        "command": "Create compelling product descriptions for Amazon listings.",
-        "icon": `<i class="fab fa-aws text-primary"></i>`,
-        "categories": ["ecommerce", "ads"],
-        inputs: [
-            {
-                id: "product-name",
-                label: "Product Name",
-                placeholder: "A red t-shirt",
-                type: "text",
-            },
-            {
-                id: "key-features",
-                label: "Key Features/Benefits",
-                placeholder: "Stretching, pleasant",
-                type: "textarea",
-            },
-            {
-                id: "tone-of-voice",
-                label: "Tone of Voice",
-                placeholder: "Select a tone. For example: Witty, Friendly, Disappointed, Polite, Creative, Professional or a known person such as Michael Jordan",
-                type: "text",
-            },
-        ]
-    },
-    {
-        "id": "3b9e-c357-63fb-f7cb",
-        "title": "Amazon Product Features (bullets)",
-        "description": "Create key feature and benefit bullet points for Amazon listings under the 'about this item' section.",
-        "command": "Create key feature and benefit bullet points for Amazon listings under the 'about this item' section.",
-        "icon": `<i class="fab fa-aws text-primary"></i>`,
-        "categories": ["ecommerce", "ads"],
-        "inputs": [
-            {
-                "id": "product-name",
-                "label": "Product Name",
-                "placeholder": "EcoBoost Portable Solar Charger",
-                "type": "text"
-            },
-            {
-                "id": "product-info",
-                "label": "Product Info",
-                "placeholder": "EcoBoost Portable Solar Charger - Compact, Lightweight, and Waterproof - Perfect for Camping, Hiking, and Emergency Preparedness - Compatible with Smartphones, Tablets, and USB Devices",
-                "type": "textarea"
-            },
-            {
-                "id": "product-benefits",
-                "label": "Key Benefits/Features",
-                "placeholder": "Lightweight design. Waterproof & Durable. Fast charging. Universal compatibility. Environmentally friendly.",
-                "type": "text"
-            },
-            {
-                "id": "tone-of-voice",
-                "label": "Tone of Voice",
-                "placeholder": "Professional. Friendly. Funny.",
-                "type": "text"
-            }
-        ]
-    },
+    // {
+    //     "id": "a6dc-0f21-c102-6c22",
+    //     "title": "Amazon Product Description (paragraph)",
+    //     "description": "Create compelling product descriptions for Amazon listings.",
+    //     "command": "Create compelling product descriptions for Amazon listings.",
+    //     "icon": `<i class="fab fa-aws text-primary"></i>`,
+    //     "categories": ["ecommerce", "ads"],
+    //     inputs: [
+    //         {
+    //             id: "product-name",
+    //             label: "Product Name",
+    //             placeholder: "A red t-shirt",
+    //             type: "text",
+    //         },
+    //         {
+    //             id: "key-features",
+    //             label: "Key Features/Benefits",
+    //             placeholder: "Stretching, pleasant",
+    //             type: "textarea",
+    //         },
+    //         {
+    //             id: "tone-of-voice",
+    //             label: "Tone of Voice",
+    //             placeholder: "Select a tone. For example: Witty, Friendly, Disappointed, Polite, Creative, Professional or a known person such as Michael Jordan",
+    //             type: "text",
+    //         },
+    //     ]
+    // },
+    // {
+    //     "id": "3b9e-c357-63fb-f7cb",
+    //     "title": "Amazon Product Features (bullets)",
+    //     "description": "Create key feature and benefit bullet points for Amazon listings under the 'about this item' section.",
+    //     "command": "Create key feature and benefit bullet points for Amazon listings under the 'about this item' section.",
+    //     "icon": `<i class="fab fa-aws text-primary"></i>`,
+    //     "categories": ["ecommerce", "ads"],
+    //     "inputs": [
+    //         {
+    //             "id": "product-name",
+    //             "label": "Product Name",
+    //             "placeholder": "EcoBoost Portable Solar Charger",
+    //             "type": "text"
+    //         },
+    //         {
+    //             "id": "product-info",
+    //             "label": "Product Info",
+    //             "placeholder": "EcoBoost Portable Solar Charger - Compact, Lightweight, and Waterproof - Perfect for Camping, Hiking, and Emergency Preparedness - Compatible with Smartphones, Tablets, and USB Devices",
+    //             "type": "textarea"
+    //         },
+    //         {
+    //             "id": "product-benefits",
+    //             "label": "Key Benefits/Features",
+    //             "placeholder": "Lightweight design. Waterproof & Durable. Fast charging. Universal compatibility. Environmentally friendly.",
+    //             "type": "text"
+    //         },
+    //         {
+    //             "id": "tone-of-voice",
+    //             "label": "Tone of Voice",
+    //             "placeholder": "Professional. Friendly. Funny.",
+    //             "type": "text"
+    //         }
+    //     ]
+    // },
 
     {
         "id": "5df5-5b3a-d3a7-1610",
@@ -86,7 +86,7 @@ export const TEMPLATES: Template[] = [
         "description": "Wrap up your blog posts with an engaging conclusion paragraph.",
         "command": "Wrap up your blog posts with an engaging conclusion paragraph.",
         "icon": `<i class="fas fa-fire text-primary"></i>`,
-        "categories": ["blog", "seo"],
+        "categories": [ "blog", "seo" ],
         "inputs": [
             {
                 "id": "blogPostMainPoints",
@@ -114,7 +114,7 @@ export const TEMPLATES: Template[] = [
         "description": "Write an engaging opening paragraph for your blog post.",
         "command": "Write an engaging opening paragraph for your blog post.",
         "icon": `<i class="fas fa-fire text-primary"></i>`,
-        "categories": ["blog", "seo"],
+        "categories": [ "blog", "seo" ],
         "inputs": [
             {
                 "id": "blogPostTitle",
@@ -142,7 +142,7 @@ export const TEMPLATES: Template[] = [
         "description": "Create lists and outlines for articles, for example for 'How to' style blog posts and articles.",
         "command": "Create lists and outlines for an article: ",
         "icon": `<i class="fas fa-fire text-primary"></i>`,
-        "categories": ["blog", "seo"],
+        "categories": [ "blog", "seo" ],
         "inputs": [
             {
                 "id": "title",
@@ -165,7 +165,7 @@ export const TEMPLATES: Template[] = [
         "description": "Generate new blog post topics that will engage readers and rank well on Google.",
         "command": "Generate new blog post topics that will engage readers and rank well on Google.",
         "icon": `<i class="fas fa-fire text-primary"></i>`,
-        "categories": ["blog", "seo", "google"],
+        "categories": [ "blog", "seo", "google" ],
         "inputs": [
             {
                 "id": "brandName",
@@ -199,7 +199,7 @@ export const TEMPLATES: Template[] = [
         "description": "Generate a winning name for your business or product.",
         "command": "Generate a winning name for your business or product.",
         "icon": "<i class='fas fa-lightbulb text-primary' ></i>",
-        "categories": ["marketing"],
+        "categories": [ "marketing" ],
         "inputs": [
             {
                 "id": "form-field-description",
@@ -215,35 +215,35 @@ export const TEMPLATES: Template[] = [
             }
         ]
     },
-    {
-        "id": "ab91-6218-4ed4-4374",
-        "title": "Commands",
-        "description": "Tell Jema.ai exactly what to write with a command.",
-        "command": "Please do the following: ",
-        "icon": "<i class='fas fa-terminal  text-primary'></i>",
-        "categories": ["all", "google"],
-        "inputs": [
-            {
-                "id": "form-field-command",
-                "type": "textarea",
-                "label": "Your command",
-                "placeholder": "Write a creative story about Tobby flying to the moon in Matthew McConaughey's tone of voice",
-            },
-            {
-                "id": "form-field-content",
-                "type": "textarea",
-                "label": "Background information",
-                "placeholder": "Tobby was a happy dog that loved to sneak around eating people's food",
-            }
-        ]
-    },
+    // {
+    //     "id": "ab91-6218-4ed4-4374",
+    //     "title": "Commands",
+    //     "description": "Tell Toby exactly what to write with a command.",
+    //     "command": "Please do the following: ",
+    //     "icon": "<i class='fas fa-terminal  text-primary'></i>",
+    //     "categories": [ "all", "google" ],
+    //     "inputs": [
+    //         {
+    //             "id": "form-field-command",
+    //             "type": "textarea",
+    //             "label": "Your command",
+    //             "placeholder": "Write a creative story about Tobby flying to the moon in Matthew McConaughey's tone of voice",
+    //         },
+    //         {
+    //             "id": "form-field-content",
+    //             "type": "textarea",
+    //             "label": "Background information",
+    //             "placeholder": "Tobby was a happy dog that loved to sneak around eating people's food",
+    //         }
+    //     ]
+    // },
     {
         "id": "2f67-d52f-fc58-383d",
         "title": "Creative Story",
         "description": "Write creative stories to engage readers.",
         "command": "Write a creative story ",
         "icon": "<i class='fas fa-book-open text-primary'></i>",
-        "categories": ["blog", "website"],
+        "categories": [ "blog", "website" ],
         "inputs": [
             {
                 "id": "storyPlot",
@@ -265,7 +265,7 @@ export const TEMPLATES: Template[] = [
         "description": "Get your emails opened with irresistible subject lines.",
         "command": "Write Email Subject Lines. use the following : ",
         "icon": "<i class='fas fa-envelope text-primary'></i>",
-        "categories": ["email", "marketing"],
+        "categories": [ "email", "marketing" ],
         "inputs": [
             {
                 "id": "companyName",
@@ -293,7 +293,7 @@ export const TEMPLATES: Template[] = [
         "description": "Share your company's story with a compelling bio.",
         "command": "Create a compelling bio for the following company. ",
         "icon": "<i class='fas fa-building text-primary'></i>",
-        "categories": ["marketing", "website"],
+        "categories": [ "marketing", "website" ],
         "inputs": [
             {
                 "id": "companyName",
@@ -321,7 +321,7 @@ export const TEMPLATES: Template[] = [
         "description": "Enhance a piece of content by rewriting it to be more engaging, creative, and captivating.",
         "command": "Rewrite the following content to be more engaging, creative, and captivating: ",
         "icon": "<i class='fas fa-pencil-alt text-primary'></i>",
-        "categories": ["blog", "seo", "email"],
+        "categories": [ "blog", "seo", "email" ],
         "inputs": [
             {
                 "id": "blandContent",
@@ -343,7 +343,7 @@ export const TEMPLATES: Template[] = [
         "description": "Craft compelling primary text for Facebook ads that attract users.",
         "command": "Create compelling primary text for Facebook ad.",
         "icon": "<i class='fab fa-facebook text-primary'></i>",
-        "categories": ["ads", "social_media"],
+        "categories": [ "ads", "social_media" ],
         "inputs": [
             {
                 "id": "companyName",
@@ -371,7 +371,7 @@ export const TEMPLATES: Template[] = [
         "description": "Create a clear and concise job description to attract suitable candidates.",
         "command": "Write a compelling and a clear and concise job description for the following company:",
         "icon": "<i class='fas fab fa-linkedin text-primary'></i>",
-        "categories": ["linkedin", "social_media"],
+        "categories": [ "linkedin", "social_media" ],
         "inputs": [
             {
                 "id": "jobTitle",
@@ -435,14 +435,14 @@ export const TEMPLATES: Template[] = [
         "description": "Get inspired with LinkedIn topic ideas to share with your network.",
         "command": "Suggest LinkedIn topic ideas to share with my network.",
         "icon": "<i class='fas fab fa-linkedin text-primary'></i>",
-        "categories": ["linkedin", "social_media"],
+        "categories": [ "linkedin", "social_media" ],
         "inputs": [
             {
                 "id": "topic",
                 "type": "text",
                 "label": "Topic",
                 "placeholder": "Marketing",
-            },            {
+            }, {
                 "id": "audience",
                 "type": "text",
                 "label": "Audience",
@@ -450,4 +450,4 @@ export const TEMPLATES: Template[] = [
             },
         ]
     }
-]
+];
